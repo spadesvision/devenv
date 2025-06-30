@@ -14,7 +14,7 @@ let
     python = cfg.package;
     requiredPythonModules = cfg.package.pkgs.requiredPythonModules;
     makeWrapperArgs = [
-      "--prefix"
+      "--suffix"
       "LD_LIBRARY_PATH"
       ":"
       libraries
